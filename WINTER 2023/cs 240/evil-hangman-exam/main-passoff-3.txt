@@ -1,0 +1,161 @@
+You have 12 guesses left
+Used letters:
+Word: -----
+Enter guess:
+q
+Sorry, there are no q's
+
+You have 11 guesses left
+Used letters: q
+Word: -----
+Enter guess:
+1
+Invalid input
+
+You have 11 guesses left
+Used letters: q
+Word: -----
+Enter guess:
+we
+Sorry, there are no w's
+
+You have 10 guesses left
+Used letters: q w
+Word: -----
+Enter guess:
+y
+Sorry, there are no y's
+
+You have 9 guesses left
+Used letters: q w y
+Word: -----
+Enter guess:
+Q
+You already guessed that
+
+You have 9 guesses left
+Used letters: q w y
+Word: -----
+Enter guess:
+w
+You already guessed that
+
+You have 9 guesses left
+Used letters: q w y
+Word: -----
+Enter guess:
+xx
+Sorry, there are no x's
+
+You have 8 guesses left
+Used letters: q w x y
+Word: -----
+Enter guess:
+x
+You already guessed that
+
+You have 8 guesses left
+Used letters: q w x y
+Word: -----
+Enter guess:
+x
+You already guessed that
+
+You have 8 guesses left
+Used letters: q w x y
+Word: -----
+Enter guess:
+t
+Sorry, there are no t's
+
+You have 7 guesses left
+Used letters: q t w x y
+Word: -----
+Enter guess:
+T
+You already guessed that
+
+You have 7 guesses left
+Used letters: q t w x y
+Word: -----
+Enter guess:
+e
+Sorry, there are no e's
+
+You have 6 guesses left
+Used letters: e q t w x y
+Word: -----
+Enter guess:
+i
+Sorry, there are no i's
+
+You have 5 guesses left
+Used letters: e i q t w x y
+Word: -----
+Enter guess:
+o
+Sorry, there are no o's
+
+You have 4 guesses left
+Used letters: e i o q t w x y
+Word: -----
+Enter guess:
+u
+Sorry, there are no u's
+
+You have 3 guesses left
+Used letters: e i o q t u w x y
+Word: -----
+Enter guess:
+a
+Yes, there is 1 a
+
+You have 3 guesses left
+Used letters: a e i o q t u w x y
+Word: --a--
+Enter guess:
+23
+Invalid input
+
+You have 3 guesses left
+Used letters: a e i o q t u w x y
+Word: --a--
+Enter guess:
+e2
+You already guessed that
+
+You have 3 guesses left
+Used letters: a e i o q t u w x y
+Word: --a--
+Enter guess:
+2e
+Invalid input
+
+You have 3 guesses left
+Used letters: a e i o q t u w x y
+Word: --a--
+Enter guess:
+z
+Sorry, there are no z's
+
+You have 2 guesses left
+Used letters: a e i o q t u w x y z
+Word: --a--
+Enter guess:
+x
+You already guessed that
+
+You have 2 guesses left
+Used letters: a e i o q t u w x y z
+Word: --a--
+Enter guess:
+c
+Sorry, there are no c's
+
+You have 1 guesses left
+Used letters: a c e i o q t u w x y z
+Word: --a--
+Enter guess:
+v
+You lose!
+The word was: plank
