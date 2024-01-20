@@ -1,0 +1,106 @@
+You have 10 guesses left
+Used letters:
+Word: ------
+Enter guess:
+a
+Sorry, there are no a's
+
+You have 9 guesses left
+Used letters: a
+Word: ------
+Enter guess:
+
+a
+You already guessed that
+
+You have 9 guesses left
+Used letters: a
+Word: ------
+Enter guess:
+a
+You already guessed that
+
+You have 9 guesses left
+Used letters: a
+Word: ------
+Enter guess:
+z
+Sorry, there are no z's
+
+You have 8 guesses left
+Used letters: a z
+Word: ------
+Enter guess:
+qw
+Sorry, there are no q's
+
+You have 7 guesses left
+Used letters: a q z
+Word: ------
+Enter guess:
+we
+Sorry, there are no w's
+
+You have 6 guesses left
+Used letters: a q w z
+Word: ------
+Enter guess:
+er
+Sorry, there are no e's
+
+You have 5 guesses left
+Used letters: a e q w z
+Word: ------
+Enter guess:
+y
+Sorry, there are no y's
+
+You have 4 guesses left
+Used letters: a e q w y z
+Word: ------
+Enter guess:
+H
+Sorry, there are no h's
+
+You have 3 guesses left
+Used letters: a e h q w y z
+Word: ------
+Enter guess:
+h
+You already guessed that
+
+You have 3 guesses left
+Used letters: a e h q w y z
+Word: ------
+Enter guess:
+i
+Sorry, there are no i's
+
+You have 2 guesses left
+Used letters: a e h i q w y z
+Word: ------
+Enter guess:
+1
+Invalid input
+
+You have 2 guesses left
+Used letters: a e h i q w y z
+Word: ------
+Enter guess:
+j
+Sorry, there are no j's
+
+You have 1 guesses left
+Used letters: a e h i j q w y z
+Word: ------
+Enter guess:
+!
+Invalid input
+
+You have 1 guesses left
+Used letters: a e h i j q w y z
+Word: ------
+Enter guess:
+k
+You lose!
+The word was: coccus
