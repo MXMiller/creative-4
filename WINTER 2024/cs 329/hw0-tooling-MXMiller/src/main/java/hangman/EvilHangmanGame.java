@@ -1,7 +1,6 @@
 package hangman;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 public class EvilHangmanGame implements IEvilHangmanGame{
@@ -11,8 +10,8 @@ public class EvilHangmanGame implements IEvilHangmanGame{
     SortedSet<Character> guessedChars;
 
     public EvilHangmanGame() {
-        currDictionary = new TreeSet<String>();
-        guessedChars = new TreeSet<Character>();
+        currDictionary = new TreeSet<>();
+        guessedChars = new TreeSet<>();
     }
 
     @Override
@@ -45,7 +44,7 @@ public class EvilHangmanGame implements IEvilHangmanGame{
 
         Map<String, Set<String>> partition = new TreeMap<>();
 
-        Set<String> largestWords = new TreeSet<String>();
+        Set<String> largestWords = new TreeSet<>();
         Set<String> someWords;
 
         //partition
@@ -53,13 +52,13 @@ public class EvilHangmanGame implements IEvilHangmanGame{
             String key = getKey(word, guess);
 
             if(partition.get(key) == null){
-                someWords = new TreeSet<String>();
+                someWords = new TreeSet<>();
                 someWords.add(word);
                 partition.put(key, someWords);
             } else {
                 someWords = partition.get(key);
                 someWords.add(word);
-                partition.replace(key, someWords);
+                partition.put(key, someWords);
             }
         }
 
