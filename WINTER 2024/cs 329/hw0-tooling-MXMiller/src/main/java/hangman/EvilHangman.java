@@ -42,7 +42,7 @@ public class EvilHangman {
 
             if(game.getGuessedLetters().size() > 0){
                 for(Character c : game.getGuessedLetters()){
-                    usedChars.append(" " + c);
+                    usedChars.append(" ").append(c);
                 }
             }
 
@@ -55,7 +55,7 @@ public class EvilHangman {
             System.out.println("Enter guess: ");
 
             //process user input
-            Character guess = sc.next().charAt(0);
+            char guess = sc.next().charAt(0);
             guess = Character.toLowerCase(guess);
             if (!Character.isAlphabetic(guess)) {
                 System.out.println("Invalid input. \n");
@@ -111,7 +111,7 @@ public class EvilHangman {
                     //update the display word
                     for(int j = 0; j < game.getCurrDictionary().iterator().next().length(); j++){
                         if(game.getCurrDictionary().iterator().next().charAt(j) == guess){
-                            displayWord.replace(j, j + 1, guess.toString());
+                            displayWord.replace(j, j + 1, Character.toString(guess));
                         }
                     }
 
